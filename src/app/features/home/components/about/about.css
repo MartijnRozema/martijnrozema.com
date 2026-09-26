@@ -1,0 +1,12 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+  max-width: var(--measure);
+}
+
+@media (min-width: 900px) {
+  .links {
+    padding-top: var(--space-2);
+  }
+}

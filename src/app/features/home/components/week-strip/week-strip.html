@@ -1,0 +1,23 @@
+<div class="week">
+  <p id="week-title" class="eyebrow">A typical week</p>
+  <ol class="days" role="list" aria-labelledby="week-title">
+    @for (day of days; track day.label) {
+      <li class="day" [class.day--project]="day.isProjectDay">
+        <span aria-hidden="true">{{ day.label }}</span>
+        <span class="visually-hidden">
+          {{ day.name }}: {{ day.isProjectDay ? projectDayLabel : buildTimeLabel }}
+        </span>
+      </li>
+    }
+  </ol>
+  <ul class="legend" role="list">
+    <li class="legend-item">
+      <span class="swatch" aria-hidden="true"></span>
+      {{ buildTimeLabel }}
+    </li>
+    <li class="legend-item">
+      <span class="swatch swatch--project" aria-hidden="true"></span>
+      {{ projectDayLabel }}
+    </li>
+  </ul>
+</div>

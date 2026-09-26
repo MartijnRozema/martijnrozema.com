@@ -1,0 +1,15 @@
+<section class="section how-i-work" aria-labelledby="how-i-work-title">
+  <div class="heading">
+    <p class="eyebrow">How working with me works</p>
+    <h2 id="how-i-work-title">Predictable on purpose, in both directions.</h2>
+  </div>
+  <ul class="principles" role="list">
+    @for (principle of principles; track principle.title) {
+      <li class="principle">
+        <h3>{{ principle.title }}</h3>
+        <p class="description">{{ principle.description }}</p>
+      </li>
+    }
+  </ul>
+  <app-week-strip />
+</section>

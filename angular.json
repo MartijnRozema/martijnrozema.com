@@ -13,6 +13,18 @@
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
+      "i18n": {
+        "sourceLocale": {
+          "code": "en",
+          "subPath": ""
+        },
+        "locales": {
+          "nl": {
+            "translation": "src/locale/messages.nl.xlf",
+            "subPath": "nl"
+          }
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular/build:application",
@@ -27,7 +39,10 @@
             ],
             "styles": ["src/styles.css"],
             "server": "src/main.server.ts",
-            "outputMode": "static"
+            "outputMode": "static",
+            "polyfills": ["@angular/localize/init"],
+            "localize": true,
+            "i18nMissingTranslation": "error"
           },
           "configurations": {
             "production": {
@@ -48,7 +63,11 @@
             "development": {
               "optimization": false,
               "extractLicenses": false,
-              "sourceMap": true
+              "sourceMap": true,
+              "localize": ["en"]
+            },
+            "nl": {
+              "localize": ["nl"]
             }
           },
           "defaultConfiguration": "production"
@@ -61,9 +80,18 @@
             },
             "development": {
               "buildTarget": "martijnrozema-com:build:development"
+            },
+            "nl": {
+              "buildTarget": "martijnrozema-com:build:development,nl"
             }
           },
           "defaultConfiguration": "development"
+        },
+        "extract-i18n": {
+          "builder": "@angular/build:extract-i18n",
+          "options": {
+            "outputPath": "src/locale"
+          }
         },
         "test": {
           "builder": "@angular/build:unit-test"

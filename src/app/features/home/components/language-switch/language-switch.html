@@ -1,0 +1,14 @@
+<nav class="switch" aria-label="Language" i18n-aria-label="@@header.languageLabel">
+  @for (option of options; track option.locale) {
+    <a
+      class="option"
+      [class.option--active]="option.current"
+      [attr.aria-current]="option.current ? 'page' : null"
+      [href]="option.href"
+      [attr.lang]="option.locale"
+      [attr.hreflang]="option.locale"
+    >
+      {{ option.label }}
+    </a>
+  }
+</nav>

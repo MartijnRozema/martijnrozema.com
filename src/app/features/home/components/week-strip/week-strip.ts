@@ -13,13 +13,33 @@ interface WeekDay {
 })
 export class WeekStrip {
   protected readonly days: WeekDay[] = [
-    { label: 'Mon', name: 'Monday', isProjectDay: false },
-    { label: 'Tue', name: 'Tuesday', isProjectDay: false },
-    { label: 'Wed', name: 'Wednesday', isProjectDay: false },
-    { label: 'Thu', name: 'Thursday', isProjectDay: false },
-    { label: 'Fri', name: 'Friday', isProjectDay: true },
+    {
+      label: $localize`:@@week.mon.label:Mon`,
+      name: $localize`:@@week.mon.name:Monday`,
+      isProjectDay: false,
+    },
+    {
+      label: $localize`:@@week.tue.label:Tue`,
+      name: $localize`:@@week.tue.name:Tuesday`,
+      isProjectDay: false,
+    },
+    {
+      label: $localize`:@@week.wed.label:Wed`,
+      name: $localize`:@@week.wed.name:Wednesday`,
+      isProjectDay: false,
+    },
+    {
+      label: $localize`:@@week.thu.label:Thu`,
+      name: $localize`:@@week.thu.name:Thursday`,
+      isProjectDay: false,
+    },
+    {
+      label: $localize`:@@week.fri.label:Fri`,
+      name: $localize`:@@week.fri.name:Friday`,
+      isProjectDay: true,
+    },
   ];
 
-  protected readonly buildTimeLabel = 'Async build time';
-  protected readonly projectDayLabel = 'Project day: calls, reviews, releases';
+  protected readonly buildTimeLabel = $localize`:@@week.buildTime:Async build time`;
+  protected readonly projectDayLabel = $localize`:@@week.projectDay:Project day: calls, reviews, releases`;
 }

@@ -1,5 +1,5 @@
 <div class="week">
-  <p id="week-title" class="eyebrow">A typical week</p>
+  <p id="week-title" class="eyebrow" i18n="@@week.title">A typical week</p>
   <ol class="days" role="list" aria-labelledby="week-title">
     @for (day of days; track day.label) {
       <li class="day" [class.day--project]="day.isProjectDay">

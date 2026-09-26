@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="nl" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="about.eyebrow" datatype="html">
+        <source>About me</source>
+        <target state="final">Over mij</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/about/about.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about.background" datatype="html">
+        <source> I&apos;ve been building software for 9 years, currently a software engineer in a permanent position. Most of my work is full-stack on Angular and .NET. </source>
+        <target state="final"> Ik bouw al 9 jaar software en werk momenteel als software engineer in vaste dienst. Het meeste van mijn werk is full-stack in Angular en .NET. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/about/about.html</context>
+          <context context-type="linenumber">5,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about.monday" datatype="html">
+        <source> I picked up monday.com development because building inside someone else&apos;s platform is a different kind of problem. You work within their API, their UI and their constraints, and making something feel native in that context is a puzzle I enjoy, awkward parts included. It helps that the documentation is solid and their developer support actually answers. </source>
+        <target state="final"> Ik ben met monday.com-ontwikkeling begonnen omdat bouwen binnen het platform van een ander een ander soort probleem is. Je werkt binnen hun API, hun UI en hun beperkingen, en iets zo bouwen dat het daar native aanvoelt is een puzzel die ik leuk vind, lastige stukken incluis. Het helpt dat de documentatie goed is en dat hun developer support echt antwoord geeft. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/about/about.html</context>
+          <context context-type="linenumber">9,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about.otherWork" datatype="html">
+        <source> Outside monday.com I take on backend and integration work in .NET, and front-end work in Angular. If you have something that isn&apos;t monday-related, ask anyway. </source>
+        <target state="final"> Naast monday.com doe ik backend- en integratiewerk in .NET en front-endwerk in Angular. Heb je iets wat niets met monday te maken heeft? Vraag het gerust. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/about/about.html</context>
+          <context context-type="linenumber">15,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="caseStudy.eyebrow" datatype="html">
+        <source>Work</source>
+        <target state="final">Werk</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/case-study/case-study.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="caseStudy.title" datatype="html">
+        <source> MultiLang: multi-language content on monday.com boards </source>
+        <target state="final"> MultiLang: meertalige content op monday.com-boards </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/case-study/case-study.html</context>
+          <context context-type="linenumber">5,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="caseStudy.status" datatype="html">
+        <source>Submitted to the marketplace</source>
+        <target state="final">Ingediend bij de marketplace</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/case-study/case-study.html</context>
+          <context context-type="linenumber">7,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="caseStudy.problem.label" datatype="html">
+        <source>The problem</source>
+        <target state="final">Het probleem</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/case-study/case-study.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="caseStudy.problem.text" datatype="html">
+        <source>Teams running international operations on monday.com had no way to collect form submissions in multiple languages without duplicating the entire form and board per language, which fragmented their data and broke every report that assumed a single dataset. monday&apos;s own native form builder only offers AI-translation with no manual control. It also doesn&apos;t handle translated dropdown or status values at all.</source>
+        <target state="final">Teams met internationale activiteiten op monday.com konden formulierinzendingen niet in meerdere talen verzamelen zonder het hele formulier en board per taal te dupliceren. Dat versnipperde hun data en brak elk rapport dat uitging van één dataset. De eigen formulierbouwer van monday biedt alleen AI-vertaling, zonder handmatige controle, en kan helemaal niet overweg met vertaalde dropdown- of statuswaarden.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/case-study/case-study.ts</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="caseStudy.built.label" datatype="html">
+        <source>What I built</source>
+        <target state="final">Wat ik bouwde</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/case-study/case-study.ts</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="caseStudy.built.text" datatype="html">
+        <source>An app that turns one monday board into a form available in as many languages as the team needs. An admin connects a board, and the app generates a draft form matching its columns; from there they translate labels, help text, and dropdown/status option values per language, by hand or with AI assistance, while the original language stays visible as a reference. Respondents fill in the form in their own language; every submission lands as a single item on the same board, with a column recording which language was used, so reporting never fragments across languages.</source>
+        <target state="final">Een app die één monday-board omzet in een formulier dat beschikbaar is in zoveel talen als het team nodig heeft. Een beheerder koppelt een board en de app genereert een conceptformulier op basis van de kolommen. Daarna vertaalt de beheerder per taal de labels, helpteksten en dropdown- en statusopties, handmatig of met hulp van AI, terwijl de oorspronkelijke taal zichtbaar blijft als referentie. Invullers gebruiken het formulier in hun eigen taal; elke inzending komt als één item op hetzelfde board terecht, met een kolom die vastlegt welke taal is gebruikt. Zo valt de rapportage nooit uiteen per taal.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/case-study/case-study.ts</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="caseStudy.notes.label" datatype="html">
+        <source>Technical notes</source>
+        <target state="final">Technische notities</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/case-study/case-study.ts</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="caseStudy.notes.optionIds" datatype="html">
+        <source>monday&apos;s dropdown and status options are keyed by a stable numeric ID, never by their label. I found that by reproducing it against a live board rather than trusting the docs. Mapping by label or position silently corrupts the moment a board admin renames or reorders an option. Every option mapping in the app is now built around the ID as the only source of truth.</source>
+        <target state="final">De dropdown- en statusopties van monday worden geïdentificeerd door een stabiel numeriek ID, nooit door hun label. Daar kwam ik achter door het te reproduceren op een live board, in plaats van blind op de documentatie te vertrouwen. Koppelen op label of positie gaat ongemerkt mis zodra een boardbeheerder een optie hernoemt of verplaatst. Elke optiekoppeling in de app is daarom gebouwd rond het ID als enige bron van waarheid.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/case-study/case-study.ts</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="caseStudy.notes.reconciliation" datatype="html">
+        <source>monday has no webhook for a column being renamed, retyped, or deleted, only for a column being created. The app runs a periodic reconciliation job that detects drift between what the form expects and what&apos;s actually on the board, and surfaces it to the admin instead of silently submitting against a column that no longer matches.</source>
+        <target state="final">monday heeft geen webhook voor een kolom die wordt hernoemd, van type verandert of wordt verwijderd, alleen voor een nieuwe kolom. De app draait daarom periodiek een reconciliatiejob die afwijkingen opspoort tussen wat het formulier verwacht en wat er werkelijk op het board staat. Die afwijkingen krijgt de beheerder te zien, in plaats van dat inzendingen ongemerkt naar een kolom gaan die niet meer klopt.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/case-study/case-study.ts</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="caseStudy.notes.failedSubmissions" datatype="html">
+        <source>A submission that failed to reach the board used to disappear without a trace once its retries ran out. It&apos;s now tracked with an attempt count and the actual error message, and shown to the admin with a manual retry, so a failure is something they can see and act on, not silent data loss.</source>
+        <target state="final">Een inzending die het board niet bereikte, verdween vroeger spoorloos zodra de retries op waren. Nu wordt die bijgehouden met het aantal pogingen en de daadwerkelijke foutmelding, en getoond aan de beheerder met een handmatige retry. Een mislukte inzending is zo iets wat je ziet en waar je iets mee kunt, geen stil dataverlies.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/case-study/case-study.ts</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.eyebrow" datatype="html">
+        <source>Contact</source>
+        <target state="final">Contact</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/contact/contact.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.title" datatype="html">
+        <source>Have monday work you can&apos;t staff?</source>
+        <target state="final">Heb je monday-werk liggen waar je geen capaciteit voor hebt?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/contact/contact.html</context>
+          <context context-type="linenumber">4,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.text" datatype="html">
+        <source> Send me a short description of the project, what it does and when it needs to be live. I reply within a day. If it&apos;s a fit, we&apos;ll do a call on Friday and I&apos;ll come back with a scope and a price. </source>
+        <target state="final"> Stuur me een korte beschrijving van het project: wat het doet en wanneer het live moet. Ik reageer binnen een dag. Als het past, plannen we een call op vrijdag en kom ik terug met een scope en een prijs. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/contact/contact.html</context>
+          <context context-type="linenumber">6,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="hero.eyebrow" datatype="html">
+        <source>monday.com app development</source>
+        <target state="final">monday.com app-ontwikkeling</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/hero/hero.html</context>
+          <context context-type="linenumber">2,3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="hero.title" datatype="html">
+        <source>Custom monday.com apps, built for partner agencies.</source>
+        <target state="final">Maatwerk monday.com-apps, gebouwd voor partnerbureaus.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/hero/hero.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="hero.intro" datatype="html">
+        <source> I&apos;m Martijn Rozema, a software engineer based in the Netherlands. I build monday.com apps and integrations as a subcontractor for implementation partners, under your name, on your project, with a fixed scope and a delivery date. </source>
+        <target state="final"> Ik ben Martijn Rozema, software engineer uit Nederland. Ik bouw monday.com-apps en -integraties als onderaannemer voor implementatiepartners: onder jouw naam, binnen jouw project, met een vaste scope en een opleverdatum. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/hero/hero.html</context>
+          <context context-type="linenumber">5,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="hero.secondaryCta" datatype="html">
+        <source>See what I build</source>
+        <target state="final">Bekijk wat ik bouw</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/hero/hero.html</context>
+          <context context-type="linenumber">11,14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="howIWork.eyebrow" datatype="html">
+        <source>How working with me works</source>
+        <target state="final">Hoe samenwerken werkt</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/how-i-work/how-i-work.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="howIWork.title" datatype="html">
+        <source> Predictable on purpose, in both directions. </source>
+        <target state="final"> Bewust voorspelbaar, van beide kanten. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/how-i-work/how-i-work.html</context>
+          <context context-type="linenumber">5,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="howIWork.whiteLabel.title" datatype="html">
+        <source>White-label by default</source>
+        <target state="final">Standaard white-label</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/how-i-work/how-i-work.ts</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="howIWork.whiteLabel.description" datatype="html">
+        <source>Your client sees your agency. I don&apos;t approach your clients, and I&apos;m happy to work inside your repos, your tooling and your process.</source>
+        <target state="final">Je klant ziet jouw bureau. Ik benader je klanten niet, en ik werk graag in jouw repo's, met jouw tooling en volgens jouw proces.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/how-i-work/how-i-work.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="howIWork.fixedScope.title" datatype="html">
+        <source>Fixed scope, fixed dates</source>
+        <target state="final">Vaste scope, vaste opleverdatum</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/how-i-work/how-i-work.ts</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="howIWork.fixedScope.description" datatype="html">
+        <source>I work in defined deliverables with a date attached, not open-ended hours. You know what you&apos;re getting and when you can plan the demo.</source>
+        <target state="final">Ik werk met afgebakende deliverables met een datum eraan, niet met open uren. Je weet wat je krijgt en wanneer je de demo kunt plannen.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/how-i-work/how-i-work.ts</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="howIWork.oneProject.title" datatype="html">
+        <source>One project at a time</source>
+        <target state="final">Eén project tegelijk</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/how-i-work/how-i-work.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="howIWork.oneProject.description" datatype="html">
+        <source>Around 16 hours a week, with Friday as my project day: calls, reviews, releases. I run this alongside a permanent role, so I take on one project at a time, and what I commit to gets finished. That suits build work with clear boundaries; it does not suit daily standups, and I&apos;ll say so up front rather than let you find out.</source>
+        <target state="final">Ongeveer 16 uur per week, met vrijdag als projectdag: calls, reviews, releases. Ik doe dit naast een vaste baan, dus ik neem één project tegelijk aan, en wat ik toezeg, maak ik af. Dat past bij bouwwerk met duidelijke grenzen; het past niet bij dagelijkse stand-ups, en dat zeg ik liever vooraf dan dat je er later achter komt.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/how-i-work/how-i-work.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="howIWork.relationship.title" datatype="html">
+        <source>You keep the relationship</source>
+        <target state="final">Jij houdt de klantrelatie</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/how-i-work/how-i-work.ts</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="howIWork.relationship.description" datatype="html">
+        <source>Scoping, invoicing and account management stay with you. I build.</source>
+        <target state="final">Scoping, facturatie en accountmanagement blijven bij jou. Ik bouw.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/how-i-work/how-i-work.ts</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="header.languageLabel" datatype="html">
+        <source>Language</source>
+        <target state="final">Taal</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/language-switch/language-switch.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.eyebrow" datatype="html">
+        <source>What I build</source>
+        <target state="final">Wat ik bouw</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/services/services.html</context>
+          <context context-type="linenumber">2,3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.apps.title" datatype="html">
+        <source>Custom monday apps</source>
+        <target state="final">Maatwerk monday-apps</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/services/services.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.apps.description" datatype="html">
+        <source>Board and item views, widgets, integration recipes and automations built on the monday apps framework. OAuth, the GraphQL API, webhooks, and the rate limits that come with them.</source>
+        <target state="final">Board- en itemviews, widgets, integration recipes en automations op het monday apps framework. OAuth, de GraphQL API, webhooks en de rate limits die daarbij horen.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/services/services.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.integrations.title" datatype="html">
+        <source>Integrations and data work</source>
+        <target state="final">Integraties en datawerk</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/services/services.ts</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.integrations.description" datatype="html">
+        <source>Connecting monday to the systems your client already runs: CRMs, internal APIs, file stores. Two-way sync, migrations, and the error handling that keeps it running after go-live.</source>
+        <target state="final">monday koppelen aan de systemen die je klant al gebruikt: CRM's, interne API's, bestandsopslag. Tweerichtingssynchronisatie, migraties en de foutafhandeling die het na de livegang draaiende houdt.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/services/services.ts</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.marketplace.title" datatype="html">
+        <source>Marketplace-ready delivery</source>
+        <target state="final">Klaar voor de marketplace</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/services/services.ts</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.marketplace.description" datatype="html">
+        <source>I&apos;ve been through the submission requirements once, so I know what review asks for before you start building: scoped OAuth permissions, the security questionnaire, versioning, monitoring.</source>
+        <target state="final">Ik heb het indieningsproces al eens doorlopen, dus ik weet waar de review op let voordat je begint met bouwen: afgebakende OAuth-rechten, de security-vragenlijst, versiebeheer, monitoring.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/services/services.ts</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="footer.builtWith" datatype="html">
+        <source> This site is built with Angular. Source: <x id="START_LINK" ctype="x-a" equiv-text="&lt;a [href]=&quot;contact.repositoryUrl&quot;&gt;"/><x id="INTERPOLATION" equiv-text="{{ contact.repository }}"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <target state="final"> Deze site is gebouwd met Angular. Broncode: <x id="START_LINK" ctype="x-a" equiv-text="&lt;a [href]=&quot;contact.repositoryUrl&quot;&gt;"/><x id="INTERPOLATION" equiv-text="{{ contact.repository }}"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/site-footer/site-footer.html</context>
+          <context context-type="linenumber">4,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="footer.legal" datatype="html">
+        <source> Martijn Rozema · M Solutions · KvK 96501758 · Netherlands </source>
+        <target state="final"> Martijn Rozema · M Solutions · KvK 96501758 · Nederland </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/site-footer/site-footer.html</context>
+          <context context-type="linenumber">8,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="week.title" datatype="html">
+        <source>A typical week</source>
+        <target state="final">Een typische week</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/week-strip/week-strip.html</context>
+          <context context-type="linenumber">2,3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="week.mon.label" datatype="html">
+        <source>Mon</source>
+        <target state="final">Ma</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/week-strip/week-strip.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="week.mon.name" datatype="html">
+        <source>Monday</source>
+        <target state="final">Maandag</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/week-strip/week-strip.ts</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="week.tue.label" datatype="html">
+        <source>Tue</source>
+        <target state="final">Di</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/week-strip/week-strip.ts</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="week.tue.name" datatype="html">
+        <source>Tuesday</source>
+        <target state="final">Dinsdag</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/week-strip/week-strip.ts</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="week.wed.label" datatype="html">
+        <source>Wed</source>
+        <target state="final">Wo</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/week-strip/week-strip.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="week.wed.name" datatype="html">
+        <source>Wednesday</source>
+        <target state="final">Woensdag</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/week-strip/week-strip.ts</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="week.thu.label" datatype="html">
+        <source>Thu</source>
+        <target state="final">Do</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/week-strip/week-strip.ts</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="week.thu.name" datatype="html">
+        <source>Thursday</source>
+        <target state="final">Donderdag</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/week-strip/week-strip.ts</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="week.fri.label" datatype="html">
+        <source>Fri</source>
+        <target state="final">Vr</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/week-strip/week-strip.ts</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="week.fri.name" datatype="html">
+        <source>Friday</source>
+        <target state="final">Vrijdag</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/week-strip/week-strip.ts</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="week.buildTime" datatype="html">
+        <source>Async build time</source>
+        <target state="final">Asynchrone bouwtijd</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/week-strip/week-strip.ts</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="week.projectDay" datatype="html">
+        <source>Project day: calls, reviews, releases</source>
+        <target state="final">Projectdag: calls, reviews, releases</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/week-strip/week-strip.ts</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="meta.title" datatype="html">
+        <source>Martijn Rozema · monday.com app development</source>
+        <target state="final">Martijn Rozema · monday.com app-ontwikkeling</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/pages/home/home.ts</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="meta.description" datatype="html">
+        <source>Custom monday.com apps and integrations, built as a white-label subcontractor for partner agencies.</source>
+        <target state="final">Maatwerk monday.com-apps en -integraties, white-label gebouwd als onderaannemer voor partnerbureaus.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/pages/home/home.ts</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

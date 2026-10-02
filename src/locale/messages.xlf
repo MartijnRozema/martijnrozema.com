@@ -132,28 +132,35 @@
         <source>monday.com app development</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/components/hero/hero.html</context>
-          <context context-type="linenumber">2,3</context>
+          <context context-type="linenumber">3,4</context>
         </context-group>
       </trans-unit>
       <trans-unit id="hero.title" datatype="html">
         <source>Custom monday.com apps, built for partner agencies.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/components/hero/hero.html</context>
-          <context context-type="linenumber">3,4</context>
+          <context context-type="linenumber">4,5</context>
         </context-group>
       </trans-unit>
       <trans-unit id="hero.intro" datatype="html">
         <source> I&apos;m Martijn Rozema, a software engineer based in the Netherlands. I build monday.com apps and integrations as a subcontractor for implementation partners, under your name, on your project, with a fixed scope and a delivery date. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/components/hero/hero.html</context>
-          <context context-type="linenumber">5,9</context>
+          <context context-type="linenumber">6,9</context>
         </context-group>
       </trans-unit>
       <trans-unit id="hero.secondaryCta" datatype="html">
-        <source>See what I build</source>
+        <source> See what I build </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/components/hero/hero.html</context>
-          <context context-type="linenumber">11,14</context>
+          <context context-type="linenumber">13,16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="hero.portraitAlt" datatype="html">
+        <source>Portrait of Martijn Rozema</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/home/components/hero/hero.html</context>
+          <context context-type="linenumber">23,24</context>
         </context-group>
       </trans-unit>
       <trans-unit id="howIWork.eyebrow" datatype="html">
@@ -293,7 +300,7 @@
         <source> Martijn Rozema · M Solutions · KvK 96501758 · Netherlands </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/components/site-footer/site-footer.html</context>
-          <context context-type="linenumber">8,11</context>
+          <context context-type="linenumber">8,10</context>
         </context-group>
       </trans-unit>
       <trans-unit id="week.title" datatype="html">

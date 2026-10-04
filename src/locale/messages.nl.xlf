@@ -164,7 +164,7 @@
       </trans-unit>
       <trans-unit id="hero.intro" datatype="html">
         <source> I&apos;m Martijn Rozema, a software engineer based in the Netherlands. I build monday.com apps and integrations as a subcontractor for implementation partners, under your name, on your project, with a fixed scope and a delivery date. </source>
-        <target state="final"> Ik ben Martijn Rozema, software engineer uit Nederland. Ik bouw monday.com-apps en -integraties als onderaannemer voor implementatiepartners: onder jouw naam, binnen jouw project, met een vaste scope en een opleverdatum. </target>
+        <target state="final"> Ik ben Martijn Rozema, software engineer uit Nederland. Ik bouw monday.com-apps en integraties als onderaannemer voor implementatiepartners: onder jouw naam, binnen jouw project, met een vaste scope en een opleverdatum. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/components/hero/hero.html</context>
           <context context-type="linenumber">6,9</context>

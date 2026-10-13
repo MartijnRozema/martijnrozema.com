@@ -11,24 +11,24 @@
         </context-group>
       </trans-unit>
       <trans-unit id="about.background" datatype="html">
-        <source> I&apos;ve been building software for 9 years, currently a software engineer in a permanent position. Most of my work is full-stack on Angular and .NET. </source>
-        <target state="final"> Ik bouw al 9 jaar software en werk momenteel als software engineer in vaste dienst. Het meeste van mijn werk is full-stack in Angular en .NET. </target>
+        <source> I&apos;ve been building software for 9 years and currently work as a software engineer in a permanent position. My work is mostly full-stack, in Angular and .NET. </source>
+        <target state="final"> Ik bouw al 9 jaar software en werk momenteel als software engineer in vaste dienst. Mijn werk is grotendeels full-stack, in Angular en .NET. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/components/about/about.html</context>
           <context context-type="linenumber">5,8</context>
         </context-group>
       </trans-unit>
       <trans-unit id="about.monday" datatype="html">
-        <source> I picked up monday.com development because building inside someone else&apos;s platform is a different kind of problem. You work within their API, their UI and their constraints, and making something feel native in that context is a puzzle I enjoy, awkward parts included. It helps that the documentation is solid and their developer support actually answers. </source>
-        <target state="final"> Ik ben met monday.com-ontwikkeling begonnen omdat bouwen binnen het platform van een ander een ander soort probleem is. Je werkt binnen hun API, hun UI en hun beperkingen, en iets zo bouwen dat het daar native aanvoelt is een puzzel die ik leuk vind, lastige stukken incluis. Het helpt dat de documentatie goed is en dat hun developer support echt antwoord geeft. </target>
+        <source> I got into monday.com development because building on someone else&apos;s platform is its own kind of challenge. You work with their API, their interface and their constraints. Making something that feels like it belongs there is a puzzle I enjoy, even when it gets tricky. It helps that the documentation is solid and that their developer support actually answers. </source>
+        <target state="final"> Ik ben met monday.com-ontwikkeling begonnen omdat bouwen op het platform van iemand anders een eigen soort uitdaging is. Je werkt met hun API, hun interface en hun beperkingen. Iets maken dat daar voelt alsof het erbij hoort, is een puzzel die ik leuk vind, ook als het lastig wordt. Het helpt dat de documentatie goed is en dat je bij hun developer support ook echt antwoord krijgt. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/components/about/about.html</context>
           <context context-type="linenumber">9,12</context>
         </context-group>
       </trans-unit>
       <trans-unit id="about.otherWork" datatype="html">
-        <source> Outside monday.com I take on backend and integration work in .NET, and front-end work in Angular. If you have something that isn&apos;t monday-related, ask anyway. </source>
-        <target state="final"> Naast monday.com doe ik backend- en integratiewerk in .NET en front-endwerk in Angular. Heb je iets wat niets met monday te maken heeft? Vraag het gerust. </target>
+        <source> Outside monday.com I take on backend and integration work in .NET, and frontend work in Angular. Have a project without monday? Feel free to ask. </source>
+        <target state="final"> Naast monday.com doe ik backend- en integratiewerk in .NET en frontendwerk in Angular. Heb je een project zonder monday? Vraag het gerust. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/components/about/about.html</context>
           <context context-type="linenumber">15,18</context>
@@ -43,8 +43,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="caseStudy.title" datatype="html">
-        <source> MultiLang: multi-language content on monday.com boards </source>
-        <target state="final"> MultiLang: meertalige content op monday.com-boards </target>
+        <source> MultiLang Forms: multilingual forms for monday.com </source>
+        <target state="final"> MultiLang Forms: meertalige formulieren voor monday.com </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/components/case-study/case-study.html</context>
           <context context-type="linenumber">5,7</context>
@@ -67,8 +67,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="caseStudy.problem.text" datatype="html">
-        <source>Teams running international operations on monday.com had no way to collect form submissions in multiple languages without duplicating the entire form and board per language, which fragmented their data and broke every report that assumed a single dataset. monday&apos;s own native form builder only offers AI-translation with no manual control. It also doesn&apos;t handle translated dropdown or status values at all.</source>
-        <target state="final">Teams met internationale activiteiten op monday.com konden formulierinzendingen niet in meerdere talen verzamelen zonder het hele formulier en board per taal te dupliceren. Dat versnipperde hun data en brak elk rapport dat uitging van één dataset. De eigen formulierbouwer van monday biedt alleen AI-vertaling, zonder handmatige controle, en kan helemaal niet overweg met vertaalde dropdown- of statuswaarden.</target>
+        <source>Teams on monday.com that wanted a form in several languages had to build a copy of the form for each language and keep every copy in sync by hand. monday&apos;s own form builder only offers AI translation with no manual control, and it doesn&apos;t translate dropdown or status options at all.</source>
+        <target state="final">Wie op monday.com een formulier in meerdere talen wilde aanbieden, moest per taal een kopie van het formulier maken en al die kopieën apart bijhouden. Elke wijziging moest je in elk formulier opnieuw doorvoeren. De formulierbouwer van monday zelf vertaalt alleen met AI, zonder dat je de vertaling kunt aanpassen. De opties van dropdown- en statusvelden vertaalt hij helemaal niet.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/components/case-study/case-study.ts</context>
           <context context-type="linenumber">18</context>
@@ -83,8 +83,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="caseStudy.built.text" datatype="html">
-        <source>An app that turns one monday board into a form available in as many languages as the team needs. An admin connects a board, and the app generates a draft form matching its columns; from there they translate labels, help text, and dropdown/status option values per language, by hand or with AI assistance, while the original language stays visible as a reference. Respondents fill in the form in their own language; every submission lands as a single item on the same board, with a column recording which language was used, so reporting never fragments across languages.</source>
-        <target state="final">Een app die één monday-board omzet in een formulier dat beschikbaar is in zoveel talen als het team nodig heeft. Een beheerder koppelt een board en de app genereert een conceptformulier op basis van de kolommen. Daarna vertaalt de beheerder per taal de labels, helpteksten en dropdown- en statusopties, handmatig of met hulp van AI, terwijl de oorspronkelijke taal zichtbaar blijft als referentie. Invullers gebruiken het formulier in hun eigen taal; elke inzending komt als één item op hetzelfde board terecht, met een kolom die vastlegt welke taal is gebruikt. Zo valt de rapportage nooit uiteen per taal.</target>
+        <source>An app that turns one monday board into a form available in as many languages as the team needs. An admin connects a board, and the app generates a draft form matching its columns; from there they translate labels, help text and the dropdown and status options per language, by hand or with AI assistance, while the original language stays visible as a reference. Respondents fill in the form in their own language; every submission lands as a single item on the same board, with a column recording which language was used.</source>
+        <target state="final">Een app die één monday-board omzet in een formulier dat beschikbaar is in zoveel talen als het team nodig heeft. Een beheerder koppelt een board en de app genereert een conceptformulier op basis van de kolommen. Daarna vertaalt de beheerder per taal de labels, helpteksten en dropdown- en statusopties, handmatig of met hulp van AI, terwijl de oorspronkelijke taal zichtbaar blijft als referentie. Wie het formulier invult, doet dat in de eigen taal. Elke inzending komt als één item op hetzelfde board terecht, met een kolom die vastlegt welke taal is gebruikt.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/components/case-study/case-study.ts</context>
           <context context-type="linenumber">24</context>
@@ -99,24 +99,24 @@
         </context-group>
       </trans-unit>
       <trans-unit id="caseStudy.notes.optionIds" datatype="html">
-        <source>monday&apos;s dropdown and status options are keyed by a stable numeric ID, never by their label. I found that by reproducing it against a live board rather than trusting the docs. Mapping by label or position silently corrupts the moment a board admin renames or reorders an option. Every option mapping in the app is now built around the ID as the only source of truth.</source>
-        <target state="final">De dropdown- en statusopties van monday worden geïdentificeerd door een stabiel numeriek ID, nooit door hun label. Daar kwam ik achter door het te reproduceren op een live board, in plaats van blind op de documentatie te vertrouwen. Koppelen op label of positie gaat ongemerkt mis zodra een boardbeheerder een optie hernoemt of verplaatst. Elke optiekoppeling in de app is daarom gebouwd rond het ID als enige bron van waarheid.</target>
+        <source>In monday, every dropdown and status option has a fixed ID that never changes, even when someone edits the label. I tested that myself on a live board instead of blindly trusting the docs. Linking options by name or position quietly breaks as soon as an admin renames or moves one. The app therefore always links options by that fixed ID.</source>
+        <target state="final">In monday heeft elke dropdown- en statusoptie een vast ID dat niet verandert, ook niet als iemand het label aanpast. Dat heb ik zelf op een echt board getest, in plaats van blind op de documentatie te vertrouwen. Een koppeling op naam of volgorde gaat ongemerkt mis zodra een beheerder een optie hernoemt of verschuift. De app koppelt daarom altijd op dat vaste ID.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/components/case-study/case-study.ts</context>
           <context context-type="linenumber">30</context>
         </context-group>
       </trans-unit>
       <trans-unit id="caseStudy.notes.reconciliation" datatype="html">
-        <source>monday has no webhook for a column being renamed, retyped, or deleted, only for a column being created. The app runs a periodic reconciliation job that detects drift between what the form expects and what&apos;s actually on the board, and surfaces it to the admin instead of silently submitting against a column that no longer matches.</source>
-        <target state="final">monday heeft geen webhook voor een kolom die wordt hernoemd, van type verandert of wordt verwijderd, alleen voor een nieuwe kolom. De app draait daarom periodiek een reconciliatiejob die afwijkingen opspoort tussen wat het formulier verwacht en wat er werkelijk op het board staat. Die afwijkingen krijgt de beheerder te zien, in plaats van dat inzendingen ongemerkt naar een kolom gaan die niet meer klopt.</target>
+        <source>monday notifies apps when a column is added, but not when one is renamed, changes type or is deleted. So the app regularly checks whether the form still matches the board. If something no longer lines up, the admin sees it, instead of answers quietly ending up in the wrong column.</source>
+        <target state="final">monday geeft een seintje als er een kolom bijkomt, maar niet als een kolom wordt hernoemd, van type verandert of wordt verwijderd. De app controleert daarom regelmatig of het formulier nog aansluit op het board. Klopt er iets niet meer, dan ziet de beheerder dat, in plaats van dat antwoorden ongemerkt in de verkeerde kolom belanden.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/components/case-study/case-study.ts</context>
           <context context-type="linenumber">31</context>
         </context-group>
       </trans-unit>
       <trans-unit id="caseStudy.notes.failedSubmissions" datatype="html">
-        <source>A submission that failed to reach the board used to disappear without a trace once its retries ran out. It&apos;s now tracked with an attempt count and the actual error message, and shown to the admin with a manual retry, so a failure is something they can see and act on, not silent data loss.</source>
-        <target state="final">Een inzending die het board niet bereikte, verdween vroeger spoorloos zodra de retries op waren. Nu wordt die bijgehouden met het aantal pogingen en de daadwerkelijke foutmelding, en getoond aan de beheerder met een handmatige retry. Een mislukte inzending is zo iets wat je ziet en waar je iets mee kunt, geen stil dataverlies.</target>
+        <source>Sometimes a submission can&apos;t reach the board, for example when monday is briefly unavailable. The app retries a few times. If it still fails, the submission is kept with the error message, and the admin can resend it. Nothing gets lost silently.</source>
+        <target state="final">Soms komt een inzending niet op het board aan, bijvoorbeeld omdat monday even niet bereikbaar is. De app probeert het dan een paar keer opnieuw. Lukt het daarna nog niet, dan bewaart de app de inzending met de foutmelding erbij, en kan de beheerder hem zelf opnieuw versturen. Er gaat dus niets stilletjes verloren.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/components/case-study/case-study.ts</context>
           <context context-type="linenumber">32</context>
@@ -139,8 +139,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="contact.text" datatype="html">
-        <source> Send me a short description of the project, what it does and when it needs to be live. I reply within a day. If it&apos;s a fit, we&apos;ll do a call on Friday and I&apos;ll come back with a scope and a price. </source>
-        <target state="final"> Stuur me een korte beschrijving van het project: wat het doet en wanneer het live moet. Ik reageer binnen een dag. Als het past, plannen we een call op vrijdag en kom ik terug met een scope en een prijs. </target>
+        <source> Send me a short description of the project, what it should do and when it needs to be live. I&apos;ll reply within a day. If it&apos;s a fit, we&apos;ll schedule a call on a Friday and I&apos;ll come back with a scope and a price. </source>
+        <target state="final"> Stuur me een korte beschrijving van het project: wat het moet doen en wanneer het live moet. Ik reageer binnen een dag. Als het past, plannen we een call op een vrijdag en kom ik terug met een scope en een prijs. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/components/contact/contact.html</context>
           <context context-type="linenumber">6,9</context>
@@ -163,8 +163,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="hero.intro" datatype="html">
-        <source> I&apos;m Martijn Rozema, a software engineer based in the Netherlands. I build monday.com apps and integrations as a subcontractor for implementation partners, under your name, on your project, with a fixed scope and a delivery date. </source>
-        <target state="final"> Ik ben Martijn Rozema, software engineer uit Nederland. Ik bouw monday.com-apps en integraties als onderaannemer voor implementatiepartners: onder jouw naam, binnen jouw project, met een vaste scope en een opleverdatum. </target>
+        <source> I&apos;m Martijn Rozema, a software engineer based in the Netherlands. I build monday.com apps and integrations as a subcontractor for implementation partners, under your name, for your client, with a fixed scope and a delivery date. </source>
+        <target state="final"> Ik ben Martijn Rozema, software engineer uit Nederland. Ik bouw monday.com-apps en integraties als onderaannemer voor implementatiepartners: onder jouw naam, voor jouw klant, met een vaste scope en een opleverdatum. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/components/hero/hero.html</context>
           <context context-type="linenumber">6,9</context>
@@ -187,19 +187,19 @@
         </context-group>
       </trans-unit>
       <trans-unit id="howIWork.eyebrow" datatype="html">
-        <source>How working with me works</source>
-        <target state="final">Hoe samenwerken werkt</target>
+        <source>How we work together</source>
+        <target state="final">Zo werken we samen</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/components/how-i-work/how-i-work.html</context>
           <context context-type="linenumber">3,4</context>
         </context-group>
       </trans-unit>
       <trans-unit id="howIWork.title" datatype="html">
-        <source> Predictable on purpose, in both directions. </source>
-        <target state="final"> Bewust voorspelbaar, van beide kanten. </target>
+        <source>Predictable, for you and for me.</source>
+        <target state="final">Voorspelbaar, voor jou en voor mij.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/components/how-i-work/how-i-work.html</context>
-          <context context-type="linenumber">5,8</context>
+          <context context-type="linenumber">4,6</context>
         </context-group>
       </trans-unit>
       <trans-unit id="howIWork.whiteLabel.title" datatype="html">
@@ -211,15 +211,15 @@
         </context-group>
       </trans-unit>
       <trans-unit id="howIWork.whiteLabel.description" datatype="html">
-        <source>Your client sees your agency. I don&apos;t approach your clients, and I&apos;m happy to work inside your repos, your tooling and your process.</source>
-        <target state="final">Je klant ziet jouw bureau. Ik benader je klanten niet, en ik werk graag in jouw repo's, met jouw tooling en volgens jouw proces.</target>
+        <source>Your client sees your agency. I don&apos;t approach your clients. I build it as a separate project and deliver it under your name.</source>
+        <target state="final">Je klant ziet jouw bureau. Ik benader je klanten niet. Ik bouw het als los project en lever het op onder jouw naam.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/components/how-i-work/how-i-work.ts</context>
           <context context-type="linenumber">19</context>
         </context-group>
       </trans-unit>
       <trans-unit id="howIWork.fixedScope.title" datatype="html">
-        <source>Fixed scope, fixed dates</source>
+        <source>Fixed scope, fixed delivery date</source>
         <target state="final">Vaste scope, vaste opleverdatum</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/components/how-i-work/how-i-work.ts</context>
@@ -227,8 +227,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="howIWork.fixedScope.description" datatype="html">
-        <source>I work in defined deliverables with a date attached, not open-ended hours. You know what you&apos;re getting and when you can plan the demo.</source>
-        <target state="final">Ik werk met afgebakende deliverables met een datum eraan, niet met open uren. Je weet wat je krijgt en wanneer je de demo kunt plannen.</target>
+        <source>I work in defined deliverables with a fixed date, not hours billed after the fact. You know what you&apos;re getting and when you can plan the demo.</source>
+        <target state="final">Ik werk met afgebakende opleveringen met een vaste datum, niet op basis van nacalculatie. Je weet wat je krijgt en wanneer je de demo kunt plannen.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/components/how-i-work/how-i-work.ts</context>
           <context context-type="linenumber">23</context>
@@ -243,15 +243,15 @@
         </context-group>
       </trans-unit>
       <trans-unit id="howIWork.oneProject.description" datatype="html">
-        <source>Around 16 hours a week, with Friday as my project day: calls, reviews, releases. I run this alongside a permanent role, so I take on one project at a time, and what I commit to gets finished. That suits build work with clear boundaries; it does not suit daily standups, and I&apos;ll say so up front rather than let you find out.</source>
-        <target state="final">Ongeveer 16 uur per week, met vrijdag als projectdag: calls, reviews, releases. Ik doe dit naast een vaste baan, dus ik neem één project tegelijk aan, en wat ik toezeg, maak ik af. Dat past bij bouwwerk met duidelijke grenzen; het past niet bij dagelijkse stand-ups, en dat zeg ik liever vooraf dan dat je er later achter komt.</target>
+        <source>Around 16 hours a week, with Friday as my project day: calls, reviews, releases. I run this alongside a permanent role, so I take on one project at a time, and what I commit to gets finished. That works well for projects with a clear scope. It doesn&apos;t work if you expect daily standups, and I&apos;d rather say so up front than have you find out later.</source>
+        <target state="final">Ongeveer 16 uur per week, met vrijdag als projectdag: calls, reviews, releases. Ik doe dit naast een vaste baan, dus ik neem één project tegelijk aan, en wat ik toezeg, maak ik af. Dat werkt goed voor projecten met een duidelijke afbakening. Het werkt niet als je dagelijkse stand-ups verwacht, en dat zeg ik liever vooraf dan dat je er later achter komt.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/components/how-i-work/how-i-work.ts</context>
           <context context-type="linenumber">27</context>
         </context-group>
       </trans-unit>
       <trans-unit id="howIWork.relationship.title" datatype="html">
-        <source>You keep the relationship</source>
+        <source>You keep the client relationship</source>
         <target state="final">Jij houdt de klantrelatie</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/components/how-i-work/how-i-work.ts</context>
@@ -291,7 +291,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="services.apps.description" datatype="html">
-        <source>Board and item views, widgets, integration recipes and automations built on the monday apps framework. OAuth, the GraphQL API, webhooks, and the rate limits that come with them.</source>
+        <source>Board and item views, widgets, integration recipes and automations built on the monday apps framework. OAuth, the GraphQL API, webhooks and the rate limits that come with them.</source>
         <target state="final">Board- en itemviews, widgets, integration recipes en automations op het monday apps framework. OAuth, de GraphQL API, webhooks en de rate limits die daarbij horen.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/components/services/services.ts</context>
@@ -307,7 +307,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="services.integrations.description" datatype="html">
-        <source>Connecting monday to the systems your client already runs: CRMs, internal APIs, file stores. Two-way sync, migrations, and the error handling that keeps it running after go-live.</source>
+        <source>Connecting monday to the systems your client already runs: CRMs, internal APIs, file stores. Two-way sync, migrations and the error handling that keeps it running after go-live.</source>
         <target state="final">monday koppelen aan de systemen die je klant al gebruikt: CRM's, interne API's, bestandsopslag. Tweerichtingssynchronisatie, migraties en de foutafhandeling die het na de livegang draaiende houdt.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/components/services/services.ts</context>
@@ -323,8 +323,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="services.marketplace.description" datatype="html">
-        <source>I&apos;ve been through the submission requirements once, so I know what review asks for before you start building: scoped OAuth permissions, the security questionnaire, versioning, monitoring.</source>
-        <target state="final">Ik heb het indieningsproces al eens doorlopen, dus ik weet waar de review op let voordat je begint met bouwen: afgebakende OAuth-rechten, de security-vragenlijst, versiebeheer, monitoring.</target>
+        <source>I&apos;ve been through the marketplace submission process before, so I know what the review looks for before the build starts: scoped OAuth permissions, the security questionnaire, versioning, monitoring.</source>
+        <target state="final">Ik heb het indieningsproces al eens doorlopen, dus ik weet al voordat de bouw begint waar de review op let: afgebakende OAuth-rechten, de security-vragenlijst, versiebeheer, monitoring.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/components/services/services.ts</context>
           <context context-type="linenumber">25</context>
@@ -435,8 +435,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="week.buildTime" datatype="html">
-        <source>Async build time</source>
-        <target state="final">Asynchrone bouwtijd</target>
+        <source>Build time, no meetings</source>
+        <target state="final">Bouwtijd, zonder meetings</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/features/home/components/week-strip/week-strip.ts</context>
           <context context-type="linenumber">43</context>

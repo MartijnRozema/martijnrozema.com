@@ -40,6 +40,6 @@ export class WeekStrip {
     },
   ];
 
-  protected readonly buildTimeLabel = $localize`:@@week.buildTime:Async build time`;
+  protected readonly buildTimeLabel = $localize`:@@week.buildTime:Build time, no meetings`;
   protected readonly projectDayLabel = $localize`:@@week.projectDay:Project day: calls, reviews, releases`;
 }

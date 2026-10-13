@@ -23,10 +23,10 @@ describe('WeekStrip', () => {
       node.textContent?.replace(/\s+/g, ' ').trim(),
     );
     expect(descriptions).toEqual([
-      'Monday: Async build time',
-      'Tuesday: Async build time',
-      'Wednesday: Async build time',
-      'Thursday: Async build time',
+      'Monday: Build time, no meetings',
+      'Tuesday: Build time, no meetings',
+      'Wednesday: Build time, no meetings',
+      'Thursday: Build time, no meetings',
       'Friday: Project day: calls, reviews, releases',
     ]);
   });
